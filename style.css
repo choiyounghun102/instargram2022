@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+@import "reset.css";
+
+body {
+  background-color: whitesmoke;
+}
+
+.login-main {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  margin: 45px auto;
+}
+.login-main img {
+  width: 180px;
+  height: 80px;
+  margin: 30px;
+}
+.login-main__input {
+  display: flex;
+  width: 75%;
+  flex-direction: column;
+}
+.login-main__input input {
+  background-color: #fafafa;
+  display: flex;
+  margin-top: 10px;
+  height: 35px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+.login-main input:focus {
+  outline: 1px solid rgba(0, 0, 0, 0.5);
+}
+.login-main__input input:last-child {
+  border: none;
+  height: 30px;
+  background-color: #b2dffc;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.login-main__input input:last-child:hover {
+  background-color: #0095f6;
+}
+.login-main__or {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 13px;
+  opacity: 0.6;
+  font-weight: 600;
+}
+.login-other {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  margin-bottom: 30px;
+}
+.login-other a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-other a:first-child {
+  color: #385185;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  font-size: 16px;
+}
+.login-other i {
+  margin: 0 5px;
+}
+.signIn {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+}
